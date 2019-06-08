@@ -2,12 +2,12 @@
 
 
 deps:
-	sudo pip install -r requirements.txt; \
-	sudo pip install -r test_requirements.txt
+	pip install -r requirements.txt; \
+	pip install -r test_requirements.txt
 
 
 lint:
-	sudo flake8 hello_world test
+	flake8 hello_world test
 
 
 test:
